@@ -1,3 +1,12 @@
 # local package
 
 demoji
+sckit-learn
+transformers
+datasets
+evaluate 
+torch
+pandas
+numpy
+json
+nltk
