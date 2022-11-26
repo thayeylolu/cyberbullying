@@ -11,3 +11,4 @@ numpy
 json
 nltk
 matplotlib
+wordcloud
