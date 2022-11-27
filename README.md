@@ -9,6 +9,8 @@ This project aims to build a predictive model by comparing accuracy of a machine
 
 #### Reproducing `cleaning_notebook.ipynb`
 
+Create a repository on Github. See [here](https://docs.github.com/en/get-started/quickstart/create-a-repo) on how to do it
+
 Create a google account.
 
 Navigate to google drive and create a folder named `NLP`.
@@ -27,9 +29,13 @@ After copying the command, navigate to `Runtime>Run all`.
 
 After all the cells in the notebook have been executed, download the two files `clean_df.cv` and 'train_data.csv` on your local PC. Upload the two files to your created `NLP` folder in google drive.
 
+On colab, Navigate to `File>Save a copy on Github`. A pop up appears. On the pop-up,  select the name of the github repositiory you created earlier.
+
+Add `notebooks/` to the begining of file path. Then, click ok.This saves your file to github.
+
 #### Reproducing `eda.ipynb`
 
-Download the notebook `eda.ipynb` found [here](https://github.com/thayeylolu/cyberbullying/blob/main/notebooks/eda.ipynb) on your PC. Navigate to `File>Upload notebook`. Navigate to the location of the downloaded notebook `eda.ipynb` then upload it.
+Download the notebook `eda.ipynb` found [here](https://github.com/thayeylolu/cyberbullying/blob/main/notebooks/eda.ipynb) on your PC. Navigate to `File>Upload notebook`. Navigate to the location of the downloaded notebook `eda.ipynb` then upload it. 
 
 Create a new cell in the begining of the notebook
 
@@ -39,10 +45,14 @@ Install the list of packages used to create the project by copying the code belo
 ```
 After copying the command, navigate to `Runtime>Run all`.
 
-#### Reproducing `CountVectorizer_random forest.ipynb`
-Download the notebook `CountVectorizer_random forest.ipynb` found [here](https://github.com/thayeylolu/cyberbullying/blob/main/notebooks/eda.ipynb](https://github.com/thayeylolu/cyberbullying/blob/main/notebooks/CountVectorizer_random%20forest.ipynb)) on your PC. Navigate to `File>Upload notebook`. Navigate to the location of the downloaded notebook `CountVectorizer_random forest.ipynb` then upload it.
+On colab, Navigate to `File>Save a copy on Github`. A pop up appears. On the pop-up,  select the name of the github repositiory you created earlier.
 
-Create a new cell in the begining of the notebook
+Add `notebooks/` to the begining of file path. Then, click ok.This saves your file to github.
+
+#### Reproducing `CountVectorizer_random forest.ipynb`
+Download the notebook `CountVectorizer_random forest.ipynb` found [here](https://github.com/thayeylolu/cyberbullying/blob/main/notebooks/CountVectorizer_random%20forest.ipynb) on your PC. Navigate to `File>Upload notebook`. Navigate to the location of the downloaded notebook `CountVectorizer_random forest.ipynb` then upload it.
+
+Create a new cell in the begining of the notebook.
 
 Install the list of packages used to create the project by copying the code below on the cell in colab. The `requirements.txt` file can be found here : [link](https://github.com/thayeylolu/cyberbullying/blob/main/requirements.txt).Upload it to colab as a file again.
 ```python
@@ -50,7 +60,24 @@ Install the list of packages used to create the project by copying the code belo
 ```
 After copying the command, navigate to `Runtime>Run all`.
 
-#### Reproducing `CountVectorizer_random forest.ipynb`
+On colab, Navigate to `File>Save a copy on Github`. A pop up appears. On the pop-up,  select the name of the github repositiory you created earlier.
+
+Add `notebooks/` to the begining of file path. Then, click ok.This saves your file to github.
+
+#### Reproducing `the_multiclass_text_classification_pytorch.ipynb`
+Download the notebook `the_multiclass_text_classification_pytorch.ipynb` found [here](https://github.com/thayeylolu/cyberbullying/blob/main/notebooks/the_multiclass_text_classification_pytorch.ipynb) on your PC. Navigate to `File>Upload notebook`. Navigate to the location of the downloaded notebook `CountVectorizer_random forest.ipynb` then upload it.
+
+Create a new cell in the begining of the notebook.
+
+Install the list of packages used to create the project by copying the code below on the cell in colab. The `requirements.txt` file can be found here : [link](https://github.com/thayeylolu/cyberbullying/blob/main/requirements.txt).Upload it to colab as a file again.
+```python
+!pip install -r requirements.txt
+```
+After copying the command, navigate to `Runtime>Run all`.
+
+On colab, Navigate to `File>Save a copy on Github`. A pop up appears. On the pop-up,  select the name of the github repositiory you created earlier.
+
+Add `notebooks/` to the begining of file path. Then, click ok.This saves your file to github.
 
 Navigate to `Runtime>Change runtime type` select GPU as the hardware accelerator
 
