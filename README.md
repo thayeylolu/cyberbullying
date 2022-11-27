@@ -67,6 +67,8 @@ Add `notebooks/` to the begining of file path. Then, click ok.This saves your fi
 #### Reproducing `the_multiclass_text_classification_pytorch.ipynb`
 Download the notebook `the_multiclass_text_classification_pytorch.ipynb` found [here](https://github.com/thayeylolu/cyberbullying/blob/main/notebooks/the_multiclass_text_classification_pytorch.ipynb) on your PC. Navigate to `File>Upload notebook`. Navigate to the location of the downloaded notebook `CountVectorizer_random forest.ipynb` then upload it.
 
+Navigate to `Runtime>Change runtime type` select GPU as the hardware accelerator
+
 Create a new cell in the begining of the notebook.
 
 Install the list of packages used to create the project by copying the code below on the cell in colab. The `requirements.txt` file can be found here : [link](https://github.com/thayeylolu/cyberbullying/blob/main/requirements.txt).Upload it to colab as a file again.
@@ -79,6 +81,21 @@ On colab, Navigate to `File>Save a copy on Github`. A pop up appears. On the pop
 
 Add `notebooks/` to the begining of file path. Then, click ok.This saves your file to github.
 
+
+#### Reproducing `hugging_face.ipynb.ipynb`
+Download the notebook `the_multiclass_text_classification_pytorch.ipynb` found [here](https://github.com/thayeylolu/cyberbullying/blob/main/notebooks/hugging_face.ipynb) on your PC. Navigate to `File>Upload notebook`. Navigate to the location of the downloaded notebook `CountVectorizer_random forest.ipynb` then upload it.
+
 Navigate to `Runtime>Change runtime type` select GPU as the hardware accelerator
 
+Create a new cell in the begining of the notebook.
+
+Install the list of packages used to create the project by copying the code below on the cell in colab. The `requirements.txt` file can be found here : [link](https://github.com/thayeylolu/cyberbullying/blob/main/requirements.txt).Upload it to colab as a file again.
+```python
+!pip install -r requirements.txt
+```
+After copying the command, navigate to `Runtime>Run all`.
+
+On colab, Navigate to `File>Save a copy on Github`. A pop up appears. On the pop-up,  select the name of the github repositiory you created earlier.
+
+Add `notebooks/` to the begining of file path. Then, click ok.This saves your file to github.
 
